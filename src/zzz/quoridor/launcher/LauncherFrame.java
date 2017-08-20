@@ -172,7 +172,7 @@ public class LauncherFrame extends javax.swing.JFrame {
             return;
         }
 
-        String command = "java -cp lib/scala.jar:lib/scala-swing.jar:lib/quoridor.jar com.csc.quoridor.Main auto "
+        String command = "java -cp lib/scala-core.jar:lib/scala-swing.jar:lib/client.jar zzz.quoridor.Main auto "
                 + data.getHost() + " " + data.getPort() + " " + data.getRoom() + " " + data.getNickname();
 
         try {
